@@ -210,18 +210,15 @@
                     <span>Preencha os itens abaixo para entrar em contato.</span>
                 </div>
                 <form action="https://formsubmit.co/juniordelgadosp@gmail.com" method="POST">
-                    <div class="input-box">
-                        <input type="text" placeholder="Nome" required>
-                        <input type="text" placeholder="Sobre Nome" required>
-                    </div>
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Assunto" required>
-                    <textarea name="#" id="" cols="30" rows="10">
-                    </textarea>
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="assunto" placeholder="Assunto" required>
+                    <textarea name="mensagem" id="text" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                     <div class="formBtn">
                         <button type="submit" class="btn">Envie a mensagem</button>
                     </div>
-
+                
                     <input type="hidden" name="_subject" value="Novo Contato">
                     <input type="text" name="_honey" style="display: none">
                     <input type="hidden" name="_captcha" value="false">
