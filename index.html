@@ -55,8 +55,7 @@
                 </div>
 
                 <div class="bg-icon">
-                    <a href="https://github.com/pablodelgado26" target="_blank"><i
-                            class='bx bxl-github'></i></a>
+                    <a href="https://github.com/pablodelgado26" target="_blank"><i class='bx bxl-github'></i></a>
                     <span></span>
                 </div>
 
@@ -209,16 +208,14 @@
                     <h2 class="heading">Entre em contato</h2>
                     <span>Preencha os itens abaixo para entrar em contato.</span>
                 </div>
-                <form action="https://formsubmit.co/juniordelgadosp@gmail.com" method="POST">
-                    <input type="text" name="nome" placeholder="Nome" required>
-                    <input type="text" name="sobrenome" placeholder="Sobrenome" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="text" name="assunto" placeholder="Assunto" required>
-                    <textarea name="mensagem" id="text" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                <form id="contatoForm">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                     <div class="formBtn">
                         <button type="submit" class="btn">Envie a mensagem</button>
                     </div>
-                
+
                     <input type="hidden" name="_subject" value="Novo Contato">
                     <input type="text" name="_honey" style="display: none">
                     <input type="hidden" name="_captcha" value="false">
@@ -273,15 +270,15 @@
                                 <div class="sk-title">
                                     SQL
                                 </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
     </section>
 
     <footer>
-        <p>Direitos autorais © 2024 por <span>Pablo Delgado</span> || 
+        <p>Direitos autorais © 2024 por <span>Pablo Delgado</span> ||
             Todos os direitos reservados.</p>
     </footer>
 
@@ -296,6 +293,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="mail.js"></script>
 </body>
 
 </html>
