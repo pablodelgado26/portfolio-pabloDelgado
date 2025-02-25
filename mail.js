@@ -22,7 +22,7 @@ document
         const params = {
             nome: nome,
             email: email,
-            mensagem: mensagem,
+            mensagem: `Nome: ${nome}\nEmail: ${email}\nMensagem: ${mensagem}`,
         };
 
         const serviceID = "service_w40680j";
